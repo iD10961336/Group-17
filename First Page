@@ -1,0 +1,94 @@
+Sure, here's the complete XML code for Android Studio:
+
+xml
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1080dp"
+    android:layout_height="1920dp"
+    android:background="#ff000000">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="1200dp"
+        android:layout_height="1200dp"
+        android:src="@drawable/pngtree_steak_western_food_illustration_png_image_9096512" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Quick F d"
+        android:textSize="28sp"
+        android:textColor="#ff444444"
+        android:fontFamily="@font/joy_like_sunshine_through_my_windowpane"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView1"
+        android:text="🍔🍔"
+        android:textSize="28sp"
+        android:textColor="#00444444"
+        android:fontFamily="@font/joy_like_sunshine_through_my_windowpane"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:text="Recipes...🥢"
+        android:textSize="28sp"
+        android:textColor="#ff7f7f7f"
+        android:fontFamily="@font/strretch_sans_free"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="108dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/rounded_rectangle"
+        android:text="Skip"
+        android:textSize="18sp"
+        android:textColor="#ff888888"
+        android:fontFamily="@font/strretch_sans_free" />
+
+    <Button
+        android:id="@+id/recent_btn"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_rectangle" />
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_rectangle"
+        android:textColor="#fffb4fdf" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/back_btn_shape"
+        android:textColor="#ff82635f" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="540dp"
+        android:layout_height="540dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pngtree_steak_western_food_illustration_png_image_9096512" />
+
+</RelativeLayout>
